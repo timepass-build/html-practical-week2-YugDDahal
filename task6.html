@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+
+    <form>
+        <p>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name">
+        </p>
+
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email">
+        </p>
+
+        <p>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password">
+        </p>
+
+        <p>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </p>
+
+        <p>
+            <label>Interests:</label><br>
+            <input type="checkbox" id="music" name="interest" value="Music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="sports" name="interest" value="Sports">
+            <label for="sports">Sports</label><br>
+            <input type="checkbox" id="reading" name="interest" value="Reading">
+            <label for="reading">Reading</label>
+        </p>
+
+        <p>
+            <label for="department">Department:</label><br>
+            <select id="department" name="department">
+                <option value="Computer Science">Computer Science</option>
+                <option value="Business Administration">Business Administration</option>
+                <option value="Management">Management</option>
+                <option value="Engineering">Engineering</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="about">About You:</label><br>
+            <textarea id="about" name="about" rows="5" cols="40"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+</body>
+</html>

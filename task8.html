@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Media Hub</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/1029/1029183.png">
+</head>
+<body>
+    <h1 style="font-family: 'Poppins', sans-serif;">My Media Hub</h1>
+
+    <h2>YouTube Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ysz5S6PUM-U?si=3nPsqrTVdGfZY0t9" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>Local Video</h2>
+    <video width="560" height="315" controls>
+        <source src="Videos/local-video.mp4" type="video/mp4">
+        <source src="Videos/local-video.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Audio Clip</h2>
+    <audio controls>
+        <source src="Audio/sample-audio.mp3" type="audio/mpeg">
+        <source src="Audio/sample-audio.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Google Map</h2>
+    <iframe src="https://www.google.com/maps?q=PCPS%20College%20Kupondole&output=embed" width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h2>External Webpage</h2>
+    <iframe src="https://www.example.com" width="600" height="420" title="Embedded webpage"></iframe>
+
+    <h2>PDF Document</h2>
+    <embed src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" type="application/pdf" width="600" height="420">
+</body>
+</html>
